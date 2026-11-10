@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Datasets and recordings
+data/
+datasets/
+recordings/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.mp3
+
+# Large model files
+models/buffalo_l.zip
+models/buffalo_l/
+
+# FFmpeg executable
+external/ffmpeg/bin/ffmpeg.exe
+
+# Training artifacts
+runs/
+outputs/
+logs/
